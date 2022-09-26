@@ -1,0 +1,58 @@
+.book-card {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 265px;
+    background-color: #e3dfd9;
+    width: 45%;
+    color: #3a3825;
+    padding: 30px;
+    border-radius: 6%;
+    box-shadow: 10px 6px 5px  gray;
+}
+
+.book-card p {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #5f523b;
+    font-weight: 400;
+}
+
+.delete {
+    margin-left: 96px;
+    padding: 20px;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.edit {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 88px;
+    padding: 20px;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.book-card button:hover {
+    background-color: #1e293b;
+    color: #fff;
+  }

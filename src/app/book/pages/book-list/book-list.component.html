@@ -1,0 +1,6 @@
+<div class="books">
+<h2>List of Books</h2>
+<div *ngFor="let book of books" >
+    <app-book-item [book]="book" (Emitter)="doAction($event)"></app-book-item>
+</div>
+</div>

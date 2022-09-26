@@ -1,0 +1,80 @@
+.baksu {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 420px;
+    height: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #cbc8c2;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.baksu h2 {
+    margin: -30px 0 60px;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 3px rgba(0,0,0,0.4);
+}
+
+.baksu .baksuku {
+    position: relative;
+}
+
+.baksu .baksuku input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+
+.baksu .baksuku label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+    text-shadow: 3px 2px 3px rgba(0,0,0,0.4);
+}
+
+.baksu .baksuku input:focus ~ label { 
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 13px;
+}
+
+.baksu form .submituu {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #3a3825;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden; 
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+
+.baksu .submituu:hover {
+    background: #bab8ae;
+    color: white;
+    border-radius: 5px;
+}
+
